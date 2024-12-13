@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finn 3d</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Finn3d</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="wiki.html">wiki</a>
+        <a class="mdl-navigation__link" href="https://www.printables.com/de/@Finn3d">Printables</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Finn3d</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="index.html">Home</a>
+      <a class="mdl-navigation__link" href="wiki.html">wiki</a>
+      <a class="mdl-navigation__link" href="https://www.printables.com/de/@Finn3d">Printables</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <center>
+        <h1>Fusion 360</h1>
+        <p>Fusion 360 ist ein leistungsstarkes CAD-Programm von Autodesk, das sowohl Design, Simulation als auch Fertigungswerkzeuge integriert. Es wird häufig für Produktdesign, Maschinenbau und 3D-Druckvorbereitung verwendet.</p>
+        <h5>Wichtige Funktionen:</h5>
+        <ul>
+          <li>Parametrische Modellierung</li>
+          <li>Erstellung von Baugruppen</li>
+          <li>Simulation und Analyse (z. B. Belastungstests)</li>
+          <li>Export in STL- und STEP-Formate für den 3D-Druck</li>
+        </ul>
+        <h5>Vorteile:</h5>
+        <ul>
+          <li>Intuitive Benutzeroberfläche</li>
+          <li>Cloud-basierte Speicherung und Zusammenarbeit</li>
+          <li>Vielfältige Werkzeuge für Design und Fertigung</li>
+        </ul>
+        <!-- Kontaktformular -->
+
+        <h2 style="color: #4CAF50;">Kontakt</h2>
+        <form method='post' name='contact'><input type='hidden' name='form-name' value='contact' />
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="name" name="name">
+                <label class="mdl-textfield__label" for="name">Name</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="email" id="email" name="email">
+                <label class="mdl-textfield__label" for="email">Email</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <textarea class="mdl-textfield__input" id="message" name="message"></textarea>
+                <label class="mdl-textfield__label" for="message">Nachricht</label>
+            </div>
+            <br>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit">
+                Senden
+            </button>
+        </form>
+      </center>
+    </div>
+  </main>
+  <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">&copy; 2024 Finn3D</div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

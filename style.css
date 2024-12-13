@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  img {
+    max-width: 30%;
+    height: auto;
+  }
+ /* Hauptstil für die horizontale Liste */
+.horizontal-list {
+  display: flex;
+  flex-direction: row; /* Horizontale Ausrichtung */
+  list-style-type: none; /* Entfernt Standard-Punkte */
+  padding: 0;
+  margin: 0;
+  gap: 15px; /* Abstand zwischen Items */
+}
+
+
+
